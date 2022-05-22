@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D6i0E6PRx6XJR4DpLL2+8mx8Fav5R9T0PSYyFO/vZi25W6QzYAA/ElPiaWZNgsFc6wRqYi0l+89L9dpf6Z6TDg==",
+  "dgSpecHash": "Fo1oBvvavPq5VKrWuY7XNVPP35n0R4akCBA12eAquhjqw1nDLVUwiZMuVXy8KzI+Sj9+FFJX8JAdeHNsqtD8UA==",
   "success": true,
-  "projectFilePath": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj",
+  "projectFilePath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

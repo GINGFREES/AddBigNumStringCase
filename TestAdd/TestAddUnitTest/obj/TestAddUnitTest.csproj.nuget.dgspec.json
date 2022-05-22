@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gingfrees/Projects/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj": {}
+    "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj": {}
   },
   "projects": {
-    "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj": {
+    "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj",
+        "projectUniqueName": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj",
         "projectName": "TestAdd",
-        "projectPath": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj",
+        "projectPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj",
         "packagesPath": "/Users/gingfrees/.nuget/packages/",
-        "outputPath": "/Users/gingfrees/Projects/TestAdd/TestAdd/obj/",
+        "outputPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/gingfrees/Projects/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj": {
+    "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gingfrees/Projects/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj",
+        "projectUniqueName": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj",
         "projectName": "TestAddUnitTest",
-        "projectPath": "/Users/gingfrees/Projects/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj",
+        "projectPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAddUnitTest/TestAddUnitTest.csproj",
         "packagesPath": "/Users/gingfrees/.nuget/packages/",
-        "outputPath": "/Users/gingfrees/Projects/TestAdd/TestAddUnitTest/obj/",
+        "outputPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAddUnitTest/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -84,8 +84,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj": {
-                "projectPath": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj"
+              "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj": {
+                "projectPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj"
               }
             }
           }

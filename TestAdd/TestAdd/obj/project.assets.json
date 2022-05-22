@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj",
+      "projectUniqueName": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj",
       "projectName": "TestAdd",
-      "projectPath": "/Users/gingfrees/Projects/TestAdd/TestAdd/TestAdd.csproj",
+      "projectPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/TestAdd.csproj",
       "packagesPath": "/Users/gingfrees/.nuget/packages/",
-      "outputPath": "/Users/gingfrees/Projects/TestAdd/TestAdd/obj/",
+      "outputPath": "/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
