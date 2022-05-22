@@ -5,6 +5,8 @@
 * 2022/04/29
     * Add big number string case example without + operator
 
+* 2022/5/22
+   * Add Logic case and Unit Test for origin method and andvanced method.
 
 ## Environment
 ViusalStudio for Mac 2019
