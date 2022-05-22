@@ -111,12 +111,9 @@ In the function we could know
 ## More advance and quick thinking
 Although the case is about to less than BigO(n), it still can be more efficiency.
 
-* We can define each numMerge with specific byte number like below
+* Hint: use logic gate in dictionary avoid running the Contain's in list
 
-        {"00", 0}
-        {"01", 1 << 0}
-        {"10", 1 << 1}
-        ....
+You can see in Logic.cs
 
-* In the defination, we can use logical gate to get the result match. that would be more faster, because we need not to use string.Contains("") to findout match.
+
 
