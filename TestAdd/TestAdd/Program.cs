@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace TestAdd
 {
-    class Program
+    public class Program
     {
         const int MAX_NUMBERS_OF_DIGITS = 9;
         const string chars = "1234567890";
@@ -32,7 +32,7 @@ namespace TestAdd
                 {18,"99" }
             };
 
-        private static int GetCarryNum(string numMerge, out int result)
+        public static int GetCarryNum(string numMerge, out int result)
         {
             result = -1;
             int back = -1;
@@ -46,6 +46,33 @@ namespace TestAdd
                 }
             }
             return back;
+        }
+
+        public static string GetResult(string numCheck1, string numCheck2, int maxLength)
+        {
+            string getResult = string.Empty;
+            int latestCarry = 0;
+            int latestResult = 0;
+
+            for (int i = (maxLength - 1); i >= 0; i--)
+            {
+                if (latestCarry > 0)
+                {
+                    latestCarry = GetCarryNum($"{numCheck1[i]}{latestCarry}", out latestResult);
+                    int tempCarry = GetCarryNum($"{numCheck2[i]}{latestResult}", out latestResult);
+                    if (tempCarry > 0) latestCarry = tempCarry;
+                    getResult = $"{latestResult}{getResult}";
+                }
+                else
+                {
+                    latestCarry = GetCarryNum($"{numCheck1[i]}{numCheck2[i]}", out latestResult);
+                    getResult = $"{latestResult}{getResult}";
+                }
+            }
+
+            if (latestCarry > 0) getResult = $"{latestCarry}{getResult}";
+
+            return getResult;
         }
         
         private static string RandomBigNumberStr()
@@ -65,36 +92,17 @@ namespace TestAdd
             string numCheck1 = num1.PadLeft(maxLength, '0');
             string numCheck2 = num2.PadLeft(maxLength, '0');
 
-            int currentCarry = 0;
-            int beforeCarry = 0;
+            //int currentCarry = 0;
+            //int beforeCarry = 0;
             string getResult = string.Empty;
+            int latestCarry = 0;
+            int latestResult = 0;
 
-            for (int i = (MAX_NUMBERS_OF_DIGITS - 1); i >= 0; i--)
-            {
-                beforeCarry = 0;
-                if (currentCarry > 0)
-                {
-                    beforeCarry = currentCarry;
-                }
-                currentCarry = GetCarryNum($"{numCheck1[i]}{numCheck2[i]}", out int result);
-                if (beforeCarry > 0)
-                {
-                    //Console.WriteLine("add 1");
-                    beforeCarry = GetCarryNum($"{result}{beforeCarry}", out int result2);
-                    result = result2;
-                }
-                getResult = $"{result}{getResult}";
-            }
-
-            if (beforeCarry > 0 || currentCarry > 0)
-            {
-                getResult = $"1{getResult}";
-            }
-
+            getResult = GetResult(numCheck1, numCheck2, maxLength);
             Console.WriteLine("The current result is: " + getResult);
             // Use this console to check if result is Correct
             // Also, we can defined UnitTest for this case
-            //Console.WriteLine($"The correct result is :{ Convert.ToInt32(num1) + Convert.ToInt32(num2)}");
+            Console.WriteLine($"The correct result is :{ Convert.ToInt32(num1) + Convert.ToInt32(num2)}");
 
         }
     }

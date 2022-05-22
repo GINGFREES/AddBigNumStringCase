@@ -1,9 +1,24 @@
 ﻿<Properties StartupConfiguration="{FE26C4E1-1BEA-4F61-80F5-CA747BD6E792}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="TestAdd/Program.cs">
     <Files>
-      <File FileName="TestAdd/Program.cs" Line="41" Column="42" />
+      <File FileName="TestAddUnitTest/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="TestAdd/Program.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestAdd" expanded="True">
+            <Node name="TestAdd" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="TestAddUnitTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestAddUnitTest FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.TestAdd PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
