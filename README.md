@@ -113,7 +113,7 @@ Although the case is about to less than BigO(n), it still can be more efficiency
 
 * Hint: use logic gate in dictionary avoid running the Contain's in list
 
-You can see in Logic.cs
+You can see in Logic.cs[!https://github.com/GINGFREES/AddBigNumStringCase/blob/main/TestAdd/TestAdd/Logic.cs]
 
 
 
