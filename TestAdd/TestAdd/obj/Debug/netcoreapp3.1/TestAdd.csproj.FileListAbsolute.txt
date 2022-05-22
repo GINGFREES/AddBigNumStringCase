@@ -10,3 +10,15 @@
 /Users/gingfrees/Projects/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.pdb
 /Users/gingfrees/Projects/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.genruntimeconfig.cache
 /Users/gingfrees/Projects/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.csprojAssemblyReference.cache
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/bin/Debug/netcoreapp3.1/TestAdd.deps.json
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/bin/Debug/netcoreapp3.1/TestAdd.runtimeconfig.json
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/bin/Debug/netcoreapp3.1/TestAdd.runtimeconfig.dev.json
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/bin/Debug/netcoreapp3.1/TestAdd.dll
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/bin/Debug/netcoreapp3.1/TestAdd.pdb
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.csprojAssemblyReference.cache
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.AssemblyInfoInputs.cache
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.AssemblyInfo.cs
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.csproj.CoreCompileInputs.cache
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.dll
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.pdb
+/Users/gingfrees/Projects/AddBigNumStringCase/TestAdd/TestAdd/obj/Debug/netcoreapp3.1/TestAdd.genruntimeconfig.cache

@@ -74,7 +74,42 @@ namespace TestAdd
 
             return getResult;
         }
-        
+
+        public static int GetLogicCarryNum(string num1, string num2, out int result)
+        {
+            Logic.NumberType cType1 = Logic.Instance.GetNumberType(num1);
+            Logic.NumberType cType2 = Logic.Instance.GetNumberType(num2);
+            int total = Logic.Instance.GetAddResult(cType1, cType2);
+            result = total % 10;
+            return total / 10;
+        }
+
+        public static string GetLogicResult(string num1, string num2, int maxLength)
+        {
+            string getResult = string.Empty;
+            int latestCarry = 0;
+            int latestResult = 0;
+
+            for (int i = (maxLength - 1); i >= 0; i--)
+            {
+                if (latestCarry > 0)
+                {
+                    latestCarry = GetLogicCarryNum($"{num1[i]}", latestCarry.ToString(), out latestResult);
+                    int tempCarry = GetLogicCarryNum($"{num2[i]}", latestResult.ToString(), out latestResult);
+                    if (tempCarry > 0) latestCarry = tempCarry;
+                    getResult = $"{latestResult}{getResult}";
+                }
+                else
+                {
+                    latestCarry = GetLogicCarryNum($"{num1[i]}", $"{num2[i]}", out latestResult);
+                    getResult = $"{latestResult}{getResult}";
+                }
+            }
+            if (latestCarry > 0) getResult = $"{latestCarry}{getResult}";
+
+            return getResult;
+        }
+
         private static string RandomBigNumberStr()
         {
             Random r = new Random(Guid.NewGuid().GetHashCode());
@@ -100,6 +135,8 @@ namespace TestAdd
 
             getResult = GetResult(numCheck1, numCheck2, maxLength);
             Console.WriteLine("The current result is: " + getResult);
+            getResult = GetLogicResult(numCheck1, numCheck2, maxLength);
+            Console.WriteLine("The current result use Logic is :" + getResult);
             // Use this console to check if result is Correct
             // Also, we can defined UnitTest for this case
             Console.WriteLine($"The correct result is :{ Convert.ToInt32(num1) + Convert.ToInt32(num2)}");

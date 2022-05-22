@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{FE26C4E1-1BEA-4F61-80F5-CA747BD6E792}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestAdd/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestAddUnitTest/UnitTest1.cs">
     <Files>
-      <File FileName="TestAddUnitTest/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="TestAdd/Program.cs" Line="1" Column="1" />
+      <File FileName="TestAdd/Program.cs" Line="10" Column="43" />
+      <File FileName="TestAdd/Logic.cs" Line="89" Column="11" />
+      <File FileName="TestAddUnitTest/UnitTest1.cs" Line="45" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,9 +11,10 @@
           <Node name="TestAdd" expanded="True">
             <Node name="TestAdd" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="TestAddUnitTest" expanded="True" />
+            <Node name="TestAddUnitTest" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
